@@ -19,26 +19,26 @@ For this project, I worked with a dataset of consumer complaints sourced from th
 
 Key tasks included:
 
-Developing a Year-over-Year (YoY) comparison to analyze complaint trends and seasonal patterns.
+1)Developing a Year-over-Year (YoY) comparison to analyze complaint trends and seasonal patterns.
 
-Creating detailed metrics for timely responses, types of company resolutions (e.g., monetary relief, explanation), and ongoing complaint statuses.
+2)Creating detailed metrics for timely responses, types of company resolutions (e.g., monetary relief, explanation), and ongoing complaint statuses.
 
-Implementing Field Parameters for financial products and sub-products, allowing interactive filtering for deeper data insights.
+3)Implementing Field Parameters for financial products and sub-products, allowing interactive filtering for deeper data insights.
 
-Using conditional formatting to visualize monthly and daily complaints distribution and highlight key trends.
+4)Using conditional formatting to visualize monthly and daily complaints distribution and highlight key trends.
 
-Employing tooltips for enhanced data exploration, providing additional context on products and issues when hovering over visuals.
+5)Employing tooltips for enhanced data exploration, providing additional context on products and issues when hovering over visuals.
 
 
 Key Metrics/KPIs Used:
 
-Total Complaints: Total number of complaints received.
+1)Total Complaints: Total number of complaints received.
 
-Average Days to Resolution: Average time taken to resolve complaints.
+2)Average Days to Resolution: Average time taken to resolve complaints.
 
-Timely Response Rate: Percentage of complaints responded to in a timely manner (Yes/No/Still Pending).
+3)Timely Response Rate: Percentage of complaints responded to in a timely manner (Yes/No/Still Pending).
 
-Complaint Resolution Status: 
+4)Complaint Resolution Status: 
 Percentage of complaints closed, including:
 
 Closed with Monetary/Non-Monetary Relief
