@@ -31,21 +31,34 @@ Average Days to Resolution: Average time taken to resolve complaints.
 
 Timely Response Rate: Percentage of complaints responded to in a timely manner (Yes/No/Still Pending).
 
-Complaint Resolution Status: Percentage of complaints closed, including:
-Closed with Explanation
-Closed with No Explanation
+Complaint Resolution Status: 
+Percentage of complaints closed, including:
 
-
-Key Visualizations Created:
-
-YoY Line Graph: Highlighting year-over-year trends in complaints.
-Matrix of Complaints by Month and Day: Showing complaint distribution patterns across time.
-Complaints by State: Visualizing geographic distribution of complaints.
-Complaints Submission Method: Breakdown of how complaints were submitted (e.g., online, phone).
-Total Complaints by Products: Insights into the most complained-about financial products.
-Company Response to Public: Displaying how companies respond to complaints publicly, including transparency rates.
 Closed with Monetary/Non-Monetary Relief
 
 Ongoing Complaints: Percentage of complaints still in progress.
 
+Closed with Explanation
+
+Closed with No Explanation
+
 These KPIs provide insights into complaint handling efficiency, response timeliness, and the resolution quality.
+
+Key Visualizations Created:
+
+YoY Line Graph: Highlighting year-over-year trends in complaints.
+
+Matrix of Complaints by Month and Day: Showing complaint distribution patterns across time.
+
+Complaints by State: Visualizing geographic distribution of complaints.
+
+Complaints Submission Method: Breakdown of how complaints were submitted (e.g., online, phone).
+
+Total Complaints by Products: Insights into the most complained-about financial products.
+
+Company Response to Public: Displaying how companies respond to complaints publicly, including transparency rates.
+
+These visualizations provide a comprehensive view of complaint patterns, resolution times, and company transparency.
+
+Dax used :
+1) AVG days for resolution = avg(submitted date - receive date)
