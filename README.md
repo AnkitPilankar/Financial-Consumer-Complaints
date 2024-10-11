@@ -67,3 +67,40 @@ These visualizations provide a comprehensive view of complaint patterns, resolut
 
 Dax used :
 1) AVG days for resolution = avg(submitted date - receive date)
+
+2) Closed with explanation % = 
+VAR ClosedExplanationCount = 
+    CALCULATE(
+        COUNT(Data[Complaint ID]), 
+        Data[Company response to consumer] = "Closed with explanation"
+    )
+VAR TotalComplaints = COUNT(Data[Complaint ID])
+RETURN 
+IF(
+    TotalComplaints = 0, 
+    0, 
+    DIVIDE(ClosedExplanationCount, TotalComplaints, 0)  // Safely divide
+)
+
+3)In Progress % = 
+VAR InProgressCount = 
+    CALCULATE(
+        COUNT(Data[Complaint ID]), 
+        Data[Company response to consumer] = "In progress"
+    )
+VAR TotalComplaints = COUNT(Data[Complaint ID])
+VAR Result =
+    IF(
+        TotalComplaints = 0 || ISBLANK(TotalComplaints),
+        0,
+        DIVIDE(InProgressCount, TotalComplaints, 0)
+    )
+RETURN 
+IF(ISFILTERED('date'[Year]) && ISBLANK(Result), 0, Result)
+
+4)
+total complaints = COUNT(Data[Complaint ID])
+
+5)PY COMPLAINTS = CALCULATE([total complaints],SAMEPERIODLASTYEAR('date'[Date]))
+
+6)YOY Complaints% = DIVIDE([total complaints]-[PY COMPLAINTS],[PY COMPLAINTS],0)
