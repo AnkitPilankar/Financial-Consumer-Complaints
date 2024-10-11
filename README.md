@@ -2,6 +2,10 @@ Maven Financial Consumer Complaints challenge
 
 ![Capture](https://github.com/user-attachments/assets/318b4af8-2af6-4eb7-ae04-11486b618332)
 
+![Capture 1](https://github.com/user-attachments/assets/69e1c8b2-46b5-456d-9ee4-d2b682909a3c)
+
+![Capture10](https://github.com/user-attachments/assets/a7401f9d-a7ac-4b81-b622-96997012cadc)
+
 
 
 OverView:
