@@ -1,5 +1,7 @@
 Maven Financial Consumer Complaints challenge
 
+Play WIth Dashboard : https://app.powerbi.com/groups/me/reports/f99f08ba-0bf5-4aa2-b400-174d1be2e3ff/ReportSection?experience=power-bi
+
 ![Capture](https://github.com/user-attachments/assets/318b4af8-2af6-4eb7-ae04-11486b618332)
 
 ![Capture 1](https://github.com/user-attachments/assets/69e1c8b2-46b5-456d-9ee4-d2b682909a3c)
