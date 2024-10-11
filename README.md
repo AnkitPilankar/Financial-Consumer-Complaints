@@ -88,6 +88,7 @@ VAR InProgressCount =
         COUNT(Data[Complaint ID]), 
         Data[Company response to consumer] = "In progress"
     )
+    
 VAR TotalComplaints = COUNT(Data[Complaint ID])
 VAR Result =
     IF(
@@ -98,8 +99,9 @@ VAR Result =
 RETURN 
 IF(ISFILTERED('date'[Year]) && ISBLANK(Result), 0, Result)
 
-4)
-total complaints = COUNT(Data[Complaint ID])
+** REST OTHER % IS ABOVE JUST EDIT THE CALULATE FILTER DATA
+
+4)total complaints = COUNT(Data[Complaint ID])
 
 5)PY COMPLAINTS = CALCULATE([total complaints],SAMEPERIODLASTYEAR('date'[Date]))
 
