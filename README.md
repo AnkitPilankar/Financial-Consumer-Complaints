@@ -41,29 +41,29 @@ Key Metrics/KPIs Used:
 4)Complaint Resolution Status: 
 Percentage of complaints closed, including:
 
-Closed with Monetary/Non-Monetary Relief
+Closed with Monetary/Non-Monetary Relief %
 
-Ongoing Complaints: Percentage of complaints still in progress.
+Ongoing Complaints: Percentage of complaints still in progress %
 
-Closed with Explanation
+Closed with Explanation %
 
-Closed with No Explanation
+Closed with No Explanation %
 
 These KPIs provide insights into complaint handling efficiency, response timeliness, and the resolution quality.
 
 Key Visualizations Created:
 
-YoY Line Graph: Highlighting year-over-year trends in complaints.
+1)YoY Line Graph: Highlighting year-over-year trends in complaints.
 
-Matrix of Complaints by Month and Day: Showing complaint distribution patterns across time.
+2)Matrix of Complaints by Month and Day: Showing complaint distribution patterns across time.
 
-Complaints by State: Visualizing geographic distribution of complaints.
+3)Complaints by State: Visualizing geographic distribution of complaints.
 
-Complaints Submission Method: Breakdown of how complaints were submitted (e.g., online, phone).
+4)Complaints Submission Method: Breakdown of how complaints were submitted (e.g., online, phone).
 
-Total Complaints by Products: Insights into the most complained-about financial products.
+5)Total Complaints by Products: Insights into the most complained-about financial products.
 
-Company Response to Public: Displaying how companies respond to complaints publicly, including transparency rates.
+6)Company Response to Public: Displaying how companies respond to complaints publicly, including transparency rates.
 
 These visualizations provide a comprehensive view of complaint patterns, resolution times, and company transparency.
 
