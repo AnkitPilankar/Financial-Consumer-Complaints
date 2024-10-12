@@ -36,20 +36,20 @@ Key Metrics/KPIs Used:
 
 1)Total Complaints: Total number of complaints received.
 
-2)Average Days to Resolution: Average time taken to resolve complaints.
+2)Average Days to Resolution: Average Day taken to receive complaints from CFPB.
 
-3)Timely Response Rate: Percentage of complaints responded to in a timely manner (Yes/No/Still Pending).
+3)Timely Response Rate % : Percentage of complaints responded to in a timely manner (Yes/No/Still Pending).
 
-4)Complaint Resolution Status: 
+4)Complaint Resolution Status %: 
 Percentage of complaints closed, including:
 
-Closed with Monetary/Non-Monetary Relief %
+i)Closed with Monetary/Non-Monetary Relief %
 
-Ongoing Complaints: Percentage of complaints still in progress %
+ii)Ongoing Complaints: Percentage of complaints still in progress %
 
-Closed with Explanation %
+iii)Closed with Explanation %
 
-Closed with No Explanation %
+iv)Closed with No Explanation %
 
 These KPIs provide insights into complaint handling efficiency, response timeliness, and the resolution quality.
 
@@ -69,8 +69,11 @@ Key Visualizations Created:
 
 These visualizations provide a comprehensive view of complaint patterns, resolution times, and company transparency.
 
+
+** NEW TABLE IS CREATED FOR DATE TO USE TIME INTELLIGENCE WHERE SUBMITTED DATE IS USED FOR NEW DATE **
+
 Dax used :
-1) AVG days for resolution = avg(submitted date - receive date)
+1) AVG days to receive complaints from CFPB to Bank = avg(datediff(submitted date,receive date,day))
 
 2) Closed with explanation % = 
 VAR ClosedExplanationCount = 
@@ -103,10 +106,12 @@ VAR Result =
 RETURN 
 IF(ISFILTERED('date'[Year]) && ISBLANK(Result), 0, Result)
 
-** REST OTHER DAX IS SAME AS ABOVE JUST CHANGE THE CALULATE FILTER DATA 
+** REST OTHER DAX IS SAME AS ABOVE JUST CHANGE THE CALULATE FILTER DATA **
 
 4)total complaints = COUNT(Data[Complaint ID])
 
 5)PY COMPLAINTS = CALCULATE([total complaints],SAMEPERIODLASTYEAR('date'[Date]))
 
 6)YOY Complaints% = DIVIDE([total complaints]-[PY COMPLAINTS],[PY COMPLAINTS],0)
+
+
